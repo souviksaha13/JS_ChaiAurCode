@@ -1,4 +1,5 @@
 //  Primitive  -> call by value -> actual memory reference is not provided, rather a copy is provided
+//  Stack memory is used.
 
 //  7 types : String, Number, Boolearn, null, undefined, Symbol, BigInt
 
@@ -21,7 +22,8 @@ console.log(id === anotherId);      //  it will return false as symbol will give
 
 
 
-// Reference (Non primitive)   -> actual reference of the memory is provided
+//  Reference (Non primitive)   -> actual reference of the memory is provided
+//  Heap memory is used
 
 // Array, Objects, Functions
 
