@@ -58,7 +58,7 @@ let str3 = str1 + str2      //  concatenation of strings
 
 console.log(+true);     //  o/p -> 1    //  conversion value of true is 1
 console.log(+"");       //  o/p -> 0    //  conversion value of "" is 0
-// should do this type of things in the code.
+// shouldn't do this type of things in the code.
 
 let num1, num2, num3
 
