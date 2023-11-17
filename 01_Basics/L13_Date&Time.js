@@ -33,7 +33,7 @@ console.log(newDate.getDay());          //  counts monday as 1, till sunday as 7
 
 // `${newDate.getDay()} and the time `
 
-newDate.toLocaleString('default', {
+console.log(newDate.toLocaleString('default', {
     weekday: "long",
     
-})
+}))

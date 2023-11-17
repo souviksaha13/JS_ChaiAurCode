@@ -1,8 +1,13 @@
 const score = 400
 // console.log(score);
+// console.log(typeof score)
 
 const balance = new Number(100)     //  to exclusively define a number
 // console.log(balance);
+const num = new Number("20a")
+// console.log(num)
+// console.log(typeof num)
+// console.log(typeof balance)
 
 // console.log(balance.toString());  // now we have all the properties of a string
 // console.log(balance.toFixed(1));     //  used to determine the precision (digits after decimal)

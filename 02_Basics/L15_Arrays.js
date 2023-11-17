@@ -6,8 +6,8 @@ const dc_heros = ["superman", "flash", "batman"]
 // console.log(marvel_heros);
 // console.log(marvel_heros[3][1]);
 
-// const allHeros = marvel_heros.concat(dc_heros)   //  this will push the elements of the second array into the first array
-// console.log(allHeros);
+const allHeros = marvel_heros.concat(dc_heros)   //  this will push the elements of the second array into the first array
+console.log(allHeros);
 
 const all_new_heros = [...marvel_heros, ...dc_heros]    //  spread operator will do the work
 // it spreads all the elements of the array -> when both the arrays get spread into a new array, we get all the elements of both the arrays in a single array
@@ -25,7 +25,7 @@ console.log(real_another_array);
 console.log(Array.isArray("Souvik"))        //  checks if the given input is an array -> false
 console.log(Array.from("Souvik"))           //  converts the given input into array
 console.log(Array.from({name: "Souvik"})) // interesting
-// we need to specify that we want the array of keys or values? Otherwise, it will return an empty array
+// we need to specify(we can specify it using Object.keys or Object.values) that we want the array of keys or values? Otherwise, it will return an empty array
 
 let score1 = 100
 let score2 = 200
