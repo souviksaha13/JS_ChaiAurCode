@@ -17,11 +17,11 @@ Comparisons convert null to a number, treating it as 0, that's why null >= 0 is 
 So, this type of comparisons should be avoided.
 */
 
-console.log(undefined == 0);
-console.log(undefined > 0);
-console.log(undefined < 0);
+console.log(undefined == 0);    //  false
+console.log(undefined > 0);     //  false
+console.log(undefined < 0);     //  false
 // We should also avoid such type of comparisions, bcz they create too much confusion
 
-// === 
+// ===  strict check, it compares both value & datatype
 
 console.log("2" === 2);

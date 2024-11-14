@@ -20,7 +20,7 @@ const gameName = new String('hitesh-hc-com')  // this is also a method to declar
 // console.log(gameName.charAt(2));        //  returns the character at given index 
 // console.log(gameName.indexOf('t'));     //  returns the index value of the given character
 
-const newString = gameName.substring(0, 4)
+const newString = gameName.substring(0, 4)   // for (n, m) -> it counts the index from n all way upto m-1
 console.log(newString);
 // we can provide negative values to substring, but it will ignore them and consider it as 0
 
@@ -32,6 +32,7 @@ console.log(anotherString);
 const newStringOne = "   hitesh    "
 // console.log(newStringOne);
 // console.log(newStringOne.trim());
+// trim() is used to remove the extra spaces at the start and end of the string
 // trimStart() and trimEnd() can also be used if we want to trim at only one end
 
 const url = "https://souvik.com/souvik%20saha"

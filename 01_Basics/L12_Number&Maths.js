@@ -37,9 +37,15 @@ const hundreds = 1000000
 console.log(Math.random());
 // Math.random() has the range of [0, 1]
 console.log((Math.random()*10) + 1);
+
+// Here we need any number from 1 to 10 
+// Initially had the doubt about the corner cases, ie 0 & 1 ->
+// .random() gives any number between 0 & 1 -> (0,1), so it is never going to come 10 (when multiplied by 10), but it can come 0, if .random gives output as 0.0xyz.
+// To avoid that case, +1 is done.
 console.log(Math.floor(Math.random()*10) + 1);
 
 const min = 10
 const max = 20
 
+// Remember this template -> will be used extensively in future
 console.log(Math.floor(Math.random() * (max - min + 1)) + min)

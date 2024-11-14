@@ -1,5 +1,6 @@
 // Dates
 
+// Dates are objects in Js
 // Dates begin from january 1, 1970
 
 let myDate = new Date()
