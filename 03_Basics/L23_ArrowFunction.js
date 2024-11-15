@@ -27,7 +27,7 @@ console.log(this);   //  o/p is {} bcz we are in a node environment, where the c
 function chai(){
     let username = "Souvik"
     // console.log(this);      // will print many things -> recommended to run once
-    // console.log(this.username); //  unable to access context using this inside a function, works only with object
+    // console.log(this.username); //  unable to access context using `this` inside a function, works only with object
 }
 
 // chai()

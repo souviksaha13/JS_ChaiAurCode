@@ -16,6 +16,8 @@ function sayMyName(){
 //     console.log(number1 + number2);
 // }
 
+// function ke definition likhte time jo bhi inputs lete hai usee hum kehte hai parameters & jab hum function ko call karte hai tab hum jo values pass karte hai usse kehte hai arguments
+
 function addTwoNumbers(number1, number2){       //  number1, number2 are parameters
 
     // let result = number1 + number2
@@ -33,7 +35,7 @@ const result = addTwoNumbers(3, 5)  //  3, 5  are arguments
 
 
 function loginUserMessage(username = "sam"){      //    here sam is the default value if user doesn't provide any value
-    if(!username){
+    if(!username){                                //    agar user koi argument pass nhi karta aur default value bhi naa ho, then wo argument ko undefined maan leta hai
         console.log("PLease enter a username");
         return
     }

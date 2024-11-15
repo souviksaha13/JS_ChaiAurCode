@@ -25,7 +25,7 @@ const temperature = 41
 
 // if (balance > 500) console.log("test");      //  implicit scope
 
-// if (balance > 500) console.log("test"),console.log("test2");     //  not recommendable to do so
+// if (balance > 500) console.log("test"),console.log("test2");     //  not at all recommendable to do so
 
 
 // if (balance < 500) {

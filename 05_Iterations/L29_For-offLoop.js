@@ -28,7 +28,7 @@ const map = new Map()
 map.set('IN', "India")
 map.set('USA', "United States of America")
 map.set('Fr', "France")
-map.set('IN', "India")      //  will not enter twice in the map, bcz duplicates are not allowed.
+map.set('IN', "India")      //  will not enter twice in the map, bcz duplicate keys are not allowed.
 
 // console.log(map);
 

@@ -14,6 +14,8 @@ if (true) {
 // console.log(b);
 // console.log(c);
 
+// Global scope code environment mei aur browser mei alag alag hai -> will be recalled later.
+
 
 function one(){
     const username = "Souvik"
@@ -41,6 +43,8 @@ if (true) {
 
 // console.log(username);       //  this will throw an error
 
+// Nested function ke case mei child function parent ke variables ko access kar paate hai
+
 
 
 // ++++++++++++++++++ interesting ++++++++++++++++++
@@ -56,7 +60,7 @@ function addOne(num){
 
 addTwo(5)       //  can't access addTwo before initialization
 
-const addTwo = function(num){
+const addTwo = function(num){   //  This is also known as expression
     return num + 2
 }
 

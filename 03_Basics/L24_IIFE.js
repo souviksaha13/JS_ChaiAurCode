@@ -4,7 +4,7 @@
 (function chai(){
     // named IIFE bcz this function has a name "chai"
     console.log(`DB CONNECTED`);
-})();
+})();   // is case mei ; lagana bohot jaruri hai 
 
 ( (name) => {
     // unnamed IIFE

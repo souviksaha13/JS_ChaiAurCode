@@ -4,6 +4,7 @@ const coding = ["js", "ruby", "java", "python", "cpp"]
 // syntax of forEach loop
 /*
 array.forEach("callBackFunction (value, index, array)")
+// value is not the only parameter forEach has -> it also has other parameters like index & the entire array
 callFunction are like normal functions, but doesn't have any name, takes every value of the array as parameter
 */
 
@@ -20,7 +21,7 @@ callFunction are like normal functions, but doesn't have any name, takes every v
 // function printMe(item){
 //     console.log(item);
 // }
-// coding.forEach(printMe)      //  only the reference of the function is provided, exection of the function is not done here
+// coding.forEach(printMe)      //  only the reference of the function is to be provided, exection of the function is not done here
 
 
 
@@ -60,7 +61,7 @@ myCoding.forEach( (item) => {
 
 // const values = coding.forEach( (item) => {
 //     //console.log(item);
-//     return item          //  here nothing is returned
+//     return item          //  here nothing is returned -> forEach koi bhi value return nhi karta hai 
 // } )
 
 // console.log(values);     //  values will return as undefined, which shows nothing is returned by forEach
