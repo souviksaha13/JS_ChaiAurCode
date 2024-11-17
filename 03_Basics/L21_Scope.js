@@ -62,4 +62,4 @@ const addTwo = function(num){
 
 // addTwo can't be accessed before initialization while addOne can be accessed.
 // It is due to the difference in declaration method
-// (hoisting)
+// (hoisting)  -> will be discussed later

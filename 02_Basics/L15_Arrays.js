@@ -24,6 +24,7 @@ console.log(real_another_array);
 
 console.log(Array.isArray("Souvik"))        //  checks if the given input is an array -> false
 console.log(Array.from("Souvik"))           //  converts the given input into array
+console.log(Array.from("123456"))
 console.log(Array.from({name: "Souvik"})) // interesting
 // we need to specify(we can specify it using Object.keys or Object.values) that we want the array of keys or values? Otherwise, it will return an empty array
 

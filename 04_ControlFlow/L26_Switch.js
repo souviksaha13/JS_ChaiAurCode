@@ -30,5 +30,5 @@ switch (month) {
         break;
 }
 
-// if we don't put break, then whenever the case is matched, after that all the cases are executed except default or until break is found
+// if we don't put break, then whenever the case is matched, after that all the cases are executed until default or break is found
 // whenever the case default is found, it gets executed
