@@ -1,5 +1,6 @@
 let score = "hitesh"
 
+// Types to determine the typeof the datatype
 //console.log(typeof score);
 //console.log(typeof(score));
 
@@ -13,6 +14,7 @@ let valueInNumber = Number(score)
 //  true => 1; false => 0
 // null => 0
 // undefined => NaN
+// which means that sometimes the number is generated & sometimes not.
 
 let isLoggedIn = "hitesh"
 
@@ -22,6 +24,7 @@ let booleanIsLoggedIn = Boolean(isLoggedIn)
 // 1 => true; 0 => false
 // "" => false
 // "hitesh" => true
+// empty is false, else everything is true
 
 let someNumber = 33
 
