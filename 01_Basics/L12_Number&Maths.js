@@ -4,10 +4,20 @@ const score = 400
 
 const balance = new Number(100)     //  to exclusively define a number
 // console.log(balance);
+
+
 const num = new Number("20a")
-// console.log(num)
-// console.log(typeof num)
+// console.log(num)             -> [Number: NaN]
+// console.log(typeof num)      -> object
 // console.log(typeof balance)
+
+// const num = Number("20a")
+// console.log(num)             -> NaN
+// console.log(typeof num)      -> number
+// console.log(typeof balance)
+
+// new keyword makes an object and the datatype is a key and the corresponding value is the value of the key
+
 
 // console.log(balance.toString());  // now we have all the properties of a string
 // console.log(balance.toFixed(1));     //  used to determine the precision (digits after decimal)

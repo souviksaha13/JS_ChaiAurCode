@@ -2,7 +2,7 @@
 // const userEmail = ""
 const userEmail = []
 
-if (userEmail) {
+if (userEmail) {        // if some value is present inside userEmail, then it is considered as truthy value
     console.log("Got user email");
 } else {
     console.log("Don't have user email");
@@ -10,12 +10,13 @@ if (userEmail) {
 
 // falsy values
 
-// false, 0, -0, BigInt 0n, "", null, undefined, NaN  -> else are truthy values
+// false, 0, -0, BigInt 0n, "", null, undefined, NaN  -> else all are truthy values
 
 //truthy values
 // "0", 'false', " ", [], {}, function(){}
+// function(){} is called empty function, but considered as truthy values
 
-// if (userEmail.length === 0) {
+// if (userEmail.length === 0) {    // here we will consider the array form of userEmail
 //     console.log("Array is empty");
 // }
 
